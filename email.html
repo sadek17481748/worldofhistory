@@ -1,4 +1,4 @@
-<<!-- html document -->
+<!-- html document -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,15 +24,20 @@
 
   <!-- internal styles -->
   <style>
+    /* base page styling */
     body {
       font-family: 'Open Sans', sans-serif;
       background-color: #f5f1e6;
       padding-top: 80px;
       text-align: center;
     }
+
+    /* heading font styling */
     h1, h2, h3, h4, h5, h6 {
       font-family: 'Playfair Display', serif;
     }
+
+    /* fixed header styling */
     header {
       position: fixed;
       top: 0;
@@ -43,32 +48,45 @@
       color: white;
       padding: 15px 0;
     }
+
+    /* header links styling */
     header a {
       color: white;
       text-decoration: none;
     }
+
+    /* navigation links styling */
     nav a {
       margin: 0 10px;
       color: white;
       text-decoration: none;
       transition: color 0.3s;
     }
+
+    /* navigation hover effect */
     nav a:hover {
       color: #ffc107;
     }
+
+    /* thank you message layout */
     .thank-you-message {
       margin-top: 120px;
       padding: 60px 20px;
     }
+
+    /* thank you heading */
     .thank-you-message h2 {
       font-size: 2.5rem;
       margin-bottom: 20px;
     }
+
+    /* thank you paragraph text */
     .thank-you-message p {
       font-size: 1.3rem;
       color: #333;
     }
 
+    /* footer base styling */
     footer {
       background-color: black !important;
       color: white !important;
@@ -76,9 +94,13 @@
       text-align: center;
       margin-top: 60px;
     }
+
+    /* force footer text to remain white */
     footer * {
       color: white !important;
     }
+
+    /* footer links styling */
     footer a {
       color: beige !important;
       text-decoration: none;
@@ -86,6 +108,8 @@
       font-weight: bold;
       transition: color 0.3s;
     }
+
+    /* footer link hover effect */
     footer a:hover {
       color: #ffcc00 !important;
     }
@@ -95,9 +119,13 @@
 <body>
 
   <!-- header -->
+  <!-- fixed header with site title and navigation -->
   <header class="text-white">
     <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <!-- site title linking back to homepage -->
       <a href="index.html"><h1 class="h3 mb-0">World of History Museum</h1></a>
+
+      <!-- page navigation -->
       <nav>
         <a href="index.html">Home</a>
         <a href="exhibits.html">Exhibits</a>
@@ -107,12 +135,14 @@
   </header>
 
   <!-- thank you content -->
+  <!-- confirmation message shown after purchase -->
   <div class="thank-you-message">
     <h2>Thank You for Your Purchase!</h2>
     <p>A payment link has been sent to your email. Please follow the instructions to complete your booking.</p>
   </div>
 
   <!-- footer -->
+  <!-- visitor information and contact details + social links -->
   <footer class="container my-5">
     <section>
       <div class="visitor-information">
@@ -126,12 +156,14 @@
       <p>Email: info@worldofhistory.example | Phone: +44 (0)20 7123 4567</p>
     </section>
 
+    <!-- social media links (open in new tab) -->
     <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a>
     <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
     <a href="https://www.twitter.com" target="_blank" rel="noopener">Twitter</a>
   </footer>
 
   <!-- bootstrap js -->
+  <!-- bootstrap bundle enables interactive components if used -->
   <script 
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 

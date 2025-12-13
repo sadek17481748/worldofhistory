@@ -1,25 +1,30 @@
+/* Base page background */
 body {
   background-color: white;
 }
 
+/* Welcome section container */
 .welcome-section {
   margin-top: 120px;
   text-align: center;
   padding: 60px 20px;
 }
 
+/* Welcome section heading */
 .welcome-section h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
   color: #222;
 }
 
+/* Image inside welcome section */
 .welcome-section img {
   width: 100%;
   max-width: 800px;
   height: auto;
 }
 
+/* Fixed header styling */
 .original-header {
   background-color: black;
   color: white;
@@ -32,17 +37,20 @@ body {
   box-shadow: 0 2px 5px black;
 }
 
+/* Site title text */
 .world-title {
   color: white;
   text-align: center;
 }
 
+/* Navigation tabs on home page */
 .tabs-home {
   text-align: center;
   font-size: 30px;
   color: white;
 }
 
+/* Links inside home navigation tabs */
 .tabs-home a {
   text-decoration: none;
   padding: 10px 20px;
@@ -51,21 +59,25 @@ body {
   font-weight: bold;
 }
 
+/* Image gallery grid layout */
 .image-gallery {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
 }
 
+/* Individual gallery panels */
 .image-gallery div {
   position: relative;
   min-height: 400px;
 }
 
+/* Hide inline images since backgrounds are used instead */
 .image-gallery img {
   display: none;
 }
 
+/* Text overlay on gallery images */
 .image-gallery p {
   position: absolute;
   top: 50%;
@@ -81,18 +93,22 @@ body {
   width: 80%;
 }
 
+/* Gallery background image 1 */
 .image-position1 {
   background: url('https://plus.unsplash.com/premium_photo-1661963952208-2db3512ef3de?auto=format&fit=crop&q=80&w=2144') center/cover fixed;
 }
 
+/* Gallery background image 2 */
 .image-position2 {
   background: url('https://images.unsplash.com/photo-1594026200204-a25bea256816?auto=format&fit=crop&q=80&w=987') center/cover fixed;
 }
 
+/* Gallery background image 3 */
 .image-position3 {
   background: url('https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&q=80&w=1470') center/cover fixed;
 }
 
+/* Features section layout */
 .features-home {
   background-color: #f5f1e6;
   padding: 60px 20px;
@@ -102,15 +118,18 @@ body {
   gap: 40px;
 }
 
+/* Individual feature card */
 .feature {
   margin-bottom: 30px;
   transition: transform 0.3s;
 }
 
+/* Feature hover zoom effect */
 .feature:hover {
   transform: scale(1.05);
 }
 
+/* Feature images */
 .features-home img {
   width: 100%;
   height: 200px;
@@ -119,6 +138,7 @@ body {
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
+/* Buttons within features section */
 .features-home button,
 .features-home input[type="submit"] {
   margin-top: 10px;
@@ -131,12 +151,14 @@ body {
   transition: background 0.3s, color 0.3s;
 }
 
+/* Hover effect for feature buttons */
 .features-home button:hover,
 .features-home input[type="submit"]:hover {
   background: #ffcc00;
   color: black;
 }
 
+/* Responsive styles for features section */
 @media (max-width: 768px) {
   .features-home img {
     width: 100%;
@@ -149,12 +171,14 @@ body {
   }
 }
 
+/* Section heading style */
 .section-title {
   margin-bottom: 40px;
   font-size: 2rem;
   text-align: center;
 }
 
+/* Bronze Age promotional section */
 .bronze-age {
   background-color: #f5f1e6;
   color: #222;
@@ -165,16 +189,19 @@ body {
   text-align: center;
 }
 
+/* Bronze Age heading */
 .bronze-age h2 {
   color: #111;
   margin-bottom: 15px;
 }
 
+/* Bronze Age text */
 .bronze-age p {
   color: #333;
   margin: 5px 0;
 }
 
+/* Bronze Age call-to-action button */
 .bronze-btn {
   background-color: black;
   color: white;
@@ -185,11 +212,13 @@ body {
   transition: background 0.3s, color 0.3s;
 }
 
+/* Bronze Age button hover */
 .bronze-btn:hover {
   background-color: #ffcc00;
   color: black;
 }
 
+/* Newsletter and contact form container */
 .newsletter, .contact-form {
   max-width: 600px;
   margin: 60px auto;
@@ -199,17 +228,20 @@ body {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
+/* Form headings */
 .newsletter h2, .contact-form h2 {
   font-size: 1.9rem;
   color: #111;
   margin-bottom: 24px;
 }
 
+/* Form group wrapper */
 .form-group {
   margin-bottom: 20px;
   text-align: left;
 }
 
+/* Form labels */
 .form-group label {
   display: block;
   margin-bottom: 8px;
@@ -217,6 +249,7 @@ body {
   font-weight: 500;
 }
 
+/* Text inputs and textareas */
 .form-group input,
 .form-group textarea {
   width: 100%;
@@ -228,10 +261,12 @@ body {
   color: #333;
 }
 
+/* Allow vertical resize only */
 .form-group textarea {
   resize: vertical;
 }
 
+/* Newsletter and contact submit buttons */
 .btn.newsletter-btn,
 .btn.contact-btn {
   display: inline-block;
@@ -245,12 +280,14 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Form button hover effect */
 .btn.newsletter-btn:hover,
 .btn.contact-btn:hover {
   background-color: #d4af37;
   color: #222;
 }
 
+/* Responsive styles for forms */
 @media (max-width: 768px) {
   .newsletter, .contact-form {
     padding: 30px 20px;
@@ -268,6 +305,7 @@ body {
   }
 }
 
+/* Footer container */
 footer {
   background-color: black;
   color: white;
@@ -276,19 +314,23 @@ footer {
   position: relative;
 }
 
+/* Footer content section */
 footer section {
   margin-bottom: 20px;
 }
 
+/* Footer headings */
 footer h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
+/* Footer paragraph text */
 footer p {
   margin: 5px 0;
 }
 
+/* Footer links */
 footer a {
   color: beige;
   text-decoration: none;
@@ -297,10 +339,12 @@ footer a {
   transition: color 0.3s;
 }
 
+/* Footer link hover */
 footer a:hover {
   color: #ffcc00;
 }
 
+/* Footer layout container */
 .footer-section {
   display: flex;
   flex-direction: column;
@@ -308,6 +352,7 @@ footer a:hover {
   gap: 20px;
 }
 
+/* Social media links */
 .social-links a {
   color: gold;
   text-decoration: none;
@@ -315,15 +360,18 @@ footer a:hover {
   transition: color 0.3s;
 }
 
+/* Social link hover */
 .social-links a:hover {
   color: white;
 }
 
+/* Copyright text */
 .copyright {
   font-size: 0.9rem;
   color: #aaa;
   margin-top: 20px;
 }
+
 
 
 
