@@ -318,8 +318,8 @@
       </a>
 
       <!-- Main navigation links -->
-      <nav class="nav">
-        <a href="index.html" class="nav-link text-white">Home</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html" class="nav-link text-white active" aria-current="page">Home</a>
         <a href="exhibits.html" class="nav-link text-white">Exhibits</a>
         <a href="visits.html" class="nav-link text-white">Visit</a>
       </nav>
@@ -354,18 +354,18 @@
       </div>
 
       <!-- Carousel navigation controls -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" aria-label="Previous slide">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next" aria-label="Next slide">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
 
     <!-- Image gallery with full-width background sections -->
-    <section class="image-gallery">
+    <section class="image-gallery" aria-label="Museum highlights">
       <div class="image-position1">
         <p>The World of History Museum brings history to life by showcasing iconic artifacts, reconstructions, and immersive exhibits from multiple eras: Romans, Egyptians, Greeks, Tudors, and Victorians.</p>
       </div>
@@ -379,38 +379,38 @@
 
     <!-- Feature highlights section -->
     <h2 class="section-title text-center">Explore Our Highlights</h2>
-    <section class="features-home container">
+    <section class="features-home container" aria-label="Highlights">
       <div class="feature">
         <img src="https://images.unsplash.com/photo-1491156855053-9cdff72c7f85?auto=format&fit=crop&q=80&w=2128" alt="inside museum">
-        <a href="visits.html"><button>Book a Tour</button></a>
+        <a href="visits.html"><button aria-label="Book a Tour">Book a Tour</button></a>
       </div>
       <div class="feature">
         <img src="https://images.unsplash.com/photo-1544213456-bc37cb97df74?auto=format&fit=crop&q=80&w=2070" alt="exhibits">
-        <a href="visits.html"><button>Our Exhibits</button></a>
+        <a href="visits.html"><button aria-label="Our Exhibits">Our Exhibits</button></a>
       </div>
       <div class="feature">
         <img src="assets/Museum-NHM.jpg" alt="people sleeping in museum">
-        <a href="visits.html"><button>Stay the Night!</button></a>
+        <a href="visits.html"><button aria-label="Stay the Night">Stay the Night!</button></a>
       </div>
       <div class="feature">
         <img src="assets/venuehire.jpg" alt="venue with a wedding">
-        <a href="visits.html"><button>Hire Now</button></a>
+        <a href="visits.html"><button aria-label="Hire Now">Hire Now</button></a>
       </div>
     </section>
 
     <!-- Bronze Age promotional section -->
-    <section class="bronze-age py-5 text-center">
+    <section class="bronze-age py-5 text-center" aria-label="Bronze Age exhibit">
       <div class="container">
         <h2 class="mb-3">Life in the Bronze Age</h2>
         <p class="lead mb-1">Now Open</p>
         <p class="mb-4">Till Christmas</p>
-        <a href="visits.html" class="btn bronze-btn">Free Entry</a>
+        <a href="visits.html" class="btn bronze-btn" aria-label="Free Entry for Life in the Bronze Age">Free Entry</a>
       </div>
     </section>
 
     <!-- Newsletter signup form -->
     <div class="newsletter container">
-      <form action="submitted.html" method="post">
+      <form action="submitted.html" method="post" aria-label="Newsletter signup">
         <h2>Sign up to our newsletter</h2>
         <div class="form-group">
           <label for="name">Full Name</label>
@@ -426,7 +426,7 @@
 
     <!-- Contact form -->
     <div class="contact-form container my-5">
-      <form action="submitted.html" method="post">
+      <form action="submitted.html" method="post" aria-label="Contact form">
         <h2>Contact us</h2>
         <div class="form-group">
           <label for="contact-name">Full Name</label>
@@ -457,9 +457,9 @@
         </div>
         <p>Email: info@worldofhistory.example | Phone: +44 (0)20 7123 4567</p>
       </section>
-      <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a>
-      <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
-      <a href="https://www.twitter.com" target="_blank" rel="noopener">Twitter</a>
+      <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook (opens in a new tab)">Facebook</a>
+      <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram (opens in a new tab)">Instagram</a>
+      <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Twitter (opens in a new tab)">Twitter</a>
     </footer>
   </main>
 
@@ -471,4 +471,3 @@
   </script>
 </body>
 </html>
-
