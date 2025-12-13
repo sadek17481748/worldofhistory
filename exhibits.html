@@ -1,4 +1,3 @@
-<!-- HTML document -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,35 +17,24 @@
 
   <!-- Internal CSS styles specific to this page -->
   <style>
-    /* Base page styling */
     body {
       font-family: 'Open Sans', sans-serif;
       background-color: #f5f1e6;
     }
-
-    /* Serif font for all headings */
     h1, h2, h3, h4, h5, h6 {
       font-family: 'Playfair Display', serif;
     }
-
-    /* Navigation link transition effects */
     .nav-link {
       transition: color 0.3s ease, border-bottom 0.3s ease;
     }
-
-    /* Navigation hover styling */
     .nav-link:hover {
       color: #ffc107;
       border-bottom: 2px solid #ffc107;
     }
-
-    /* Active navigation link styling */
     .nav-link.active {
       color: #ffc107 !important;
       border-bottom: 2px solid #ffc107;
     }
-
-    /* Exhibit images */
     .exhibit-img {
       width: 100%;
       max-width: 700px;
@@ -54,8 +42,6 @@
       border-radius: 8px;
       display: block;
     }
-
-    /* Embedded videos and iframes */
     iframe, video {
       width: 100%;
       max-width: 700px;
@@ -65,16 +51,12 @@
       border-radius: 8px;
       border: none;
     }
-
-    /* Footer styling */
     footer {
       background-color: black;
       color: white;
       padding: 20px 0;
       text-align: center;
     }
-
-    /* Footer links */
     footer a {
       color: beige;
       text-decoration: none;
@@ -85,16 +67,11 @@
 </head>
 <body>
 
-  <!-- Header with site title and navigation -->
   <header class="bg-dark text-white py-3">
     <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
-
-      <!-- Site title linking back to homepage -->
       <a href="index.html" class="text-white text-decoration-none mb-3 mb-md-0">
         <h1 id="logo" class="h3 mb-0">World of History Museum</h1>
       </a>
-
-      <!-- Main navigation -->
       <nav class="nav" aria-label="Primary">
         <a href="index.html" class="nav-link text-white">Home</a>
         <a href="exhibits.html" class="nav-link text-white active" aria-current="page">Exhibits</a>
@@ -103,85 +80,73 @@
     </div>
   </header>
 
-  <!-- Main page content -->
   <main class="container my-5">
 
-    <!-- Crystal Palace exhibit -->
     <section class="py-4 border-bottom">
       <h2>Glass and Glory: The Story of the Crystal Palace</h2>
-      <img src="assets/crystalpalace.jpg" class="exhibit-img" alt="The Crystal Palace glass exhibition hall">
+      <img src="assets/media/crystalpalace.jpg" class="exhibit-img" alt="The Crystal Palace glass exhibition hall">
       <p>The Crystal Palace, constructed for the Great Exhibition of 1851...</p>
-      <video src="assets/clip-one.mp4" controls aria-label="Video: Glass and Glory: The Story of the Crystal Palace"></video>
+      <video src="assets/media/clip-one.mp4" controls aria-label="Video: Glass and Glory: The Story of the Crystal Palace"></video>
     </section>
 
-    <!-- Victoria and Abdul exhibit -->
     <section class="py-4 border-bottom">
       <h2>Victoria and Abdul</h2>
-      <img src="assets/victoriaandabdul.jpg" class="exhibit-img" alt="Queen Victoria and Abdul Karim">
+      <img src="assets/media/victoriaandabdul.jpg" class="exhibit-img" alt="Queen Victoria and Abdul Karim">
       <p>This exhibit highlights the unlikely yet influential friendship...</p>
     </section>
 
-    <!-- Egyptian life and death exhibit -->
     <section class="py-4 border-bottom">
       <h2>Life of the Dead</h2>
-      <img src="assets/mummy.jpeg" class="exhibit-img" alt="Egyptian mummy display">
+      <img src="assets/media/mummy.jpeg" class="exhibit-img" alt="Egyptian mummy display">
       <p>Discover the spiritual world of ancient Egypt...</p>
-      <video src="assets/egyptian.mp4" controls aria-label="Video: Life of the Dead"></video>
+      <video src="assets/media/egyptian.mp4" controls aria-label="Video: Life of the Dead"></video>
     </section>
 
-    <!-- Pyramids architecture exhibit -->
     <section class="py-4 border-bottom">
       <h2>Historical Architecture: The Pyramids</h2>
-      <img src="assets/pyramids.jpeg" class="exhibit-img" alt="Ancient Egyptian pyramids at Giza">
+      <img src="assets/media/pyramids.jpeg" class="exhibit-img" alt="Ancient Egyptian pyramids at Giza">
       <p>The How Pyramids Were Built exhibit showcases engineering genius...</p>
-      <video src="assets/romans.mp4" controls aria-label="Video: Historical Architecture: The Pyramids"></video>
+      <video src="assets/media/romans.mp4" controls aria-label="Video: Historical Architecture: The Pyramids"></video>
     </section>
 
-    <!-- Tudors exhibit -->
     <section class="py-4 border-bottom">
       <h2>Tudors: Life and Death of Elizabeth</h2>
-      <img src="assets/tudors1.jpg" class="exhibit-img" alt="Portrait of Queen Elizabeth I">
+      <img src="assets/media/tudors1.jpg" class="exhibit-img" alt="Portrait of Queen Elizabeth I">
       <p>Step into the world of Elizabethan England...</p>
     </section>
 
-    <!-- Henry VIII youth exhibit -->
     <section class="py-4 border-bottom">
       <h3>Beyond Henry</h3>
-      <img src="assets/henry-new.jpeg.webp" class="exhibit-img" alt="Young Henry VIII portrait">
+      <img src="assets/media/henry-new.jpeg.webp" class="exhibit-img" alt="Young Henry VIII portrait">
       <p>Before becoming the infamous monarch, Henry VIII was...</p>
     </section>
 
-    <!-- Romans exhibit -->
     <section class="py-4 border-bottom">
       <h2>Romans</h2>
-      <img src="assets/roman-warrior.jpeg.avif" class="exhibit-img" alt="Roman warrior in armor">
+      <img src="assets/media/roman-warrior.jpeg.avif" class="exhibit-img" alt="Roman warrior in armor">
       <p>Experience the complex world of ancient Rome...</p>
     </section>
 
-    <!-- Enemies of Rome exhibit -->
     <section class="py-4 border-bottom">
       <h2>Enemies of Rome</h2>
-      <img src="assets/roman-enemy.jpeg.avif" class="exhibit-img" alt="Depiction of Rome's enemies in battle">
+      <img src="assets/media/roman-enemy.jpeg.avif" class="exhibit-img" alt="Depiction of Rome's enemies in battle">
       <p>This section explores the cultures and commanders...</p>
     </section>
 
-    <!-- Greeks exhibit -->
     <section class="py-4 border-bottom">
       <h2>Greeks</h2>
-      <img src="assets/greek-new.jpeg.avif" class="exhibit-img" alt="Ancient Greek artifacts and statues">
+      <img src="assets/media/greek-new.jpeg.avif" class="exhibit-img" alt="Ancient Greek artifacts and statues">
       <p>This exhibit introduces the achievements of ancient Greece...</p>
     </section>
 
-    <!-- Greek philosophers exhibit -->
     <section class="py-4">
       <h2>Great Minds of Greece</h2>
-      <img src="assets/plato-new.jpeg.avif" class="exhibit-img" alt="Statue of Greek philosopher Plato">
+      <img src="assets/media/plato-new.jpeg.avif" class="exhibit-img" alt="Statue of Greek philosopher Plato">
       <p>Meet the thinkers who transformed the ancient world...</p>
     </section>
 
   </main>
 
-  <!-- Footer with visitor and contact information -->
   <footer class="container my-5">
     <section>
       <div class="visitor-information">
@@ -192,7 +157,6 @@
       <p>Email: info@worldofhistory.example | Phone: +44 (0)20 7123 4567</p>
     </section>
 
-    <!-- Social media links -->
     <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook (opens in a new tab)">Facebook</a>
     <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram (opens in a new tab)">Instagram</a>
     <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Twitter (opens in a new tab)">Twitter</a>
@@ -200,4 +164,3 @@
 
 </body>
 </html>
-
