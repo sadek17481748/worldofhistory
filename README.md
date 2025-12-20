@@ -62,7 +62,7 @@ It allowsfor users to know what they can excpect and plan their visit around wha
 ## Responsive Design Preview
 
 Below is a multi device mockup demonstrating how the **World of History Museum** website appears on desktop laptop tablet and mobile screens and screeenshots.
-![Multi Device Mockup](assets/media/multi-screen.jpeg.png) 
+![Multi Device Mockup](assets/media/multi-screen.jpeg) 
 
 ![Screenshots](assets/media/screenshot-1.jpg) 
 
@@ -475,7 +475,8 @@ Mohammed Sadek Hussain
 NCC  
 Level 5 Web Development  
 Milestone 1
-
+ 
+ commit test 2
 
 
 
