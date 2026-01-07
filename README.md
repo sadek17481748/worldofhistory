@@ -64,17 +64,17 @@ It allowsfor users to know what they can excpect and plan their visit around wha
 Below is a multi device mockup demonstrating how the **World of History Museum** website appears on desktop laptop tablet and mobile screens and screeenshots.
 ![Multi Device Mockup](assets/media/multi-screen.jpeg) 
 
-![Screenshots](assets/media/screenshot-1.jpg) 
+![Screenshots](assets/screenshots/screenshot-1.jpg)
 
-![Screenshots](assets/media/screenshot-2.jpg)
+![Screenshots](assets/screenshots/screenshot-2.jpg)
 
-![Screenshots](assets/media/screenshot-3.jpg)
+![Screenshots](assets/screenshots/screenshot-3.jpg)
 
-![Screenshots](assets/media/screenshot-4.jpg)
+![Screenshots](assets/screenshots/screenshot-4.jpg)
 
-![Screenshots](assets/media/screenshot-5.jpg)
+![Screenshots](assets/screenshots/screenshot-5.jpg)
 
-![Screenshots](assets/media/screenshot-6.jpg)
+![Screenshots](assets/screenshots/screenshot-6.jpg)
 
 
 
@@ -141,35 +141,64 @@ World-Of-History
 ├── index.html  
 ├── exhibits.html  
 ├── visits.html  
-│  
+│── email.html  
+├── submitted.html  
+├
 ├── assets  
 │   ├── style.css  
 │   ├── exhibits.css  
 │   ├── visits.css  
 │   │  
 │   ├── media  
-│   │   │ 
-│   │   │   ├── crystalpalace.jpg  
-│   │   │   ├── victoriaandabdul.jpg  
-│   │   │   ├── mummy.jpeg  
-│   │   │   ├── pyramids.jpeg  
-│   │   │   ├── tudors1.jpg  
-│   │   │   ├── henry-new.jpeg.webp  
-│   │   │   ├── roman-warrior.jpeg.avif  
-│   │   │   ├── roman-enemy.jpeg.avif  
-│   │   │   ├── greek-new.jpeg.avif  
-│   │   │   └── plato-new.jpeg.avif  
-│   │   │  
-│   │   ├── videos  
-│   │   │   ├── clip-one.mp4  
-│   │   │   ├── egyptian.mp4  
-│   │   │   └── romans.mp4  
-│   │  
-│   ├── lighthouse.jpeg  
-│   ├── multi-screen.jpeg.png  
-│   ├── validator-index.jpeg  
-│   ├── validator-visit.jpeg  
-│   └── validator-exhibit.jpeg  
+│   │   ├── bronzeage.jpg  
+│   │   ├── clip-one.mp4  
+│   │   ├── crystal-palace.jpg  
+│   │   ├── crystalpalace.jpg  
+│   │   ├── egyptian.mp4  
+│   │   ├── greek-new.jpeg  
+│   │   ├── greekstatue.jpeg  
+│   │   ├── hannibal.jpeg  
+│   │   ├── henry-new.jpeg  
+│   │   ├── henry8.jpg  
+│   │   ├── lighthouse.jpeg  
+│   │   ├── multi-screen.jpeg  
+│   │   ├── mummy-artifact.jpg  
+│   │   ├── mummy.jpeg  
+│   │   ├── museum-1.jpg  
+│   │   ├── museum-front.jpeg  
+│   │   ├── museum-image2.jpg  
+│   │   ├── museum-image3.jpg  
+│   │   ├── museum-image4.jpg  
+│   │   ├── museum-nhm.jpg  
+│   │   ├── new-carousel.jpg  
+│   │   ├── new-carousel-two.jpg  
+│   │   ├── new-carousel-three.jpg  
+│   │   ├── plato.jpeg  
+│   │   ├── plato-new.jpeg  
+│   │   ├── pyramids.jpeg  
+│   │   ├── queen-victoria-abdul.jpg  
+│   │   ├── responsive-one.jpeg  
+│   │   ├── responsive-two.jpeg  
+│   │   ├── roman-enemy.jpeg  
+│   │   ├── roman-warrior.jpeg  
+│   │   ├── romans.jpeg  
+│   │   ├── romans.mp4  
+│   │   ├── screenshot-1.jpg  
+│   │   ├── screenshot-2.jpg  
+│   │   ├── screenshot-3.jpg  
+│   │   ├── screenshot-4.jpg  
+│   │   ├── screenshot-5.jpg  
+│   │   ├── screenshot-6.jpg  
+│   │   ├── tudors1.jpg  
+│   │   ├── validator-css-exhibit.jpeg  
+│   │   ├── validator-exhibit.jpeg  
+│   │   ├── validator-index.jpeg  
+│   │   ├── validator-style.jpeg  
+│   │   ├── validator-visit-css.jpeg  
+│   │   ├── validator-visit.jpeg  
+│   │   ├── venuehire.jpg  
+│   │   ├── victoriaandabdul.jpg  
+│   │   └── victorian-video.mp4  
 │  
 └── README.md
 
@@ -188,12 +217,21 @@ During development each page was tested locally in the browser to check layout n
 ### Version Control Using Git
 
 Git was used for version control to track progress. Files were staged and committed regularly after key changes were made.
+ The  following comands wer used in the treminal of VS Code to send commits to the repositry. 
 
+ git add . 
+ git commit -m "comment"
+ git push - push to repositry
 ---
 
 ### Creating the GitHub Repository
 
-A repository named World Of History was created on GitHub and the local project was connected to it. Files were pushed using the main branch.
+A repository named World Of History was created on GitHub and the local project was connected to it. Files were pushed using the main branch. 
+
+following commands used in terminal to connect to the repositry  
+git config --global user.name "eventiservicesandhelp-ops"
+git config --global user.email "eventiservicesandhelp-ops@users.noreply.github.com"
+
 
 ---
 
@@ -211,8 +249,7 @@ Any new commits pushed to the main branch automatically update the live website.
 
 ### Live Website
 
-https://msadekhussain2001-ux.github.io/World-Of-History/
-
+https://eventiservicesandhelp-ops.github.io/worldofhistory-new/
 ---
 
 # Testing and Bugs
@@ -477,6 +514,11 @@ Level 5 Web Development
 Milestone 1
  
  commit test 2
+
+
+
+
+
 
 
 
