@@ -64,17 +64,17 @@ It allowsfor users to know what they can excpect and plan their visit around wha
 Below is a multi device mockup demonstrating how the **World of History Museum** website appears on desktop laptop tablet and mobile screens and screeenshots.
 ![Multi Device Mockup](assets/media/multi-screen.jpeg) 
 
-![Screenshots](assets/screenshots/screenshot-1.jpg)
+![Screenshots](assets/screenshot-1.jpg)
 
-![Screenshots](assets/screenshots/screenshot-2.jpg)
+![Screenshots](assets/screenshot-2.jpg)
 
-![Screenshots](assets/screenshots/screenshot-3.jpg)
+![Screenshots](assets/screenshot-3.jpg)
 
-![Screenshots](assets/screenshots/screenshot-4.jpg)
+![Screenshots](assets/screenshot-4.jpg)
 
-![Screenshots](assets/screenshots/screenshot-5.jpg)
+![Screenshots](assets/screenshot-5.jpg)
 
-![Screenshots](assets/screenshots/screenshot-6.jpg)
+![Screenshots](assets/screenshot-6.jpg)
 
 
 
