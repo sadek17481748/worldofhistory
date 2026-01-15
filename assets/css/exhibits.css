@@ -1,121 +1,57 @@
-/* Global box-sizing so padding/border don’t increase element width/height calculations */
-* {
-  box-sizing: border-box;
-}
-
-/* Base page styling: font stack, spacing reset, readable line-height and default text colour */
-body {
-  background-color: #ffffff;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  color: #333;
-}
-
-/* Fixed header bar that stays at the top while scrolling */
-.original-header {
-  background-color: #000;
-  color: #fff;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  padding: 15px 20px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  transition: padding 0.3s ease;
-}
-
-/* Main site title inside the header */
-.world-title {
-  color: #fff;
-  text-align: center;
-  margin: 0 0 10px 0;
-  font-size: 1.8rem;
-  font-weight: 600;
-}
-
-/* Navigation container (tabs/links area) */
-.tabs-home {
-  text-align: center;
-  font-size: 1.1rem;
-  color: #fff;
-  margin: 0;
-}
-
-/* Navigation links: spacing, typography, and interaction transitions */
-.tabs-home a {
-  text-decoration: none;
-  padding: 10px 20px;
-  margin: 0 5px;
-  border-radius: 5px;
-  font-weight: 600;
-  color: #fff;
-  display: inline-block;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-/* Hover feedback for navigation links */
-.tabs-home a:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  transform: translateY(-2px);
-}
-
-/* Keyboard focus styling for accessibility */
-.tabs-home a:focus {
-  outline: 2px solid #fff;
-  outline-offset: 2px;
-}
-
-/* Main content wrapper: top padding accounts for fixed header height */
-main {
-  padding-top: 160px;
-  padding-left: 20px;
-  padding-right: 20px;
-  max-width: 1400px;
-  margin: 0 auto;
-}
-
-/* General section layout: centered content and consistent spacing between sections */
-section {
-  text-align: center;
-  margin-bottom: 80px;
-}
-
-/* Section headings */
-section h2 {
-  color: #111;
-  font-size: 2rem;
-  margin-bottom: 20px;
-  font-weight: 700;
-}
-
-/* Section paragraph text: readable width and line spacing */
-section p {
-  font-size: 1.1rem;
-  max-width: 900px;
-  margin: 0 auto 20px auto;
-  line-height: 1.8;
-  color: #444;
-}
-
-/* Default section images: sizing, centering, rounded corners, and subtle shadow */
-section img {
-  max-width: 700px;
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 20px auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Image hover lift effect for visual emphasis */
-section img:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-}
+   /* Body styling: font and background color */
+   body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f1e6;
+  }
+  /* Headings styling: using Playfair Display font */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+  /* Navigation links transition effects */
+  .nav-link {
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+  /* Hover effect for navigation links */
+  .nav-link:hover {
+    color: #ffc107;
+    border-bottom: 2px solid #ffc107;
+  }
+  /* Active navigation link styling */
+  .nav-link.active {
+    color: #ffc107 !important;
+    border-bottom: 2px solid #ffc107;
+  }
+  /* Exhibit images styling */
+  .exhibit-img {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    border-radius: 8px;
+    display: block;
+  }
+  /* Embedded video and iframes styling */
+  iframe, video {
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px;
+    border: none;
+  }
+  /* Footer styling */
+  footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  /* Footer links styling */
+  footer a {
+    color: beige;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
 
 

@@ -206,51 +206,58 @@ World-Of-History
 
 # Deployment
 
-### Local Development Environment
+## Local Development Environment
 
-The project was developed locally using VS Code. A new project folder was created and opened in VS Code. All HTML CSS image and video assets were created and organised within this folder.
+The project was developed locally using **Visual Studio Code (VS Code)**. A new project folder was created on my computer, and all relevant files were organised within this folder. This included HTML pages for each section of the website, CSS files for styling placed in `assets/css`, and image and video assets stored in `assets/media`. During development, each page was tested locally by opening the HTML files directly in a web browser. This allowed me to check the **layout, navigation, responsiveness, and functionality** before committing any changes. Minor adjustments were made in VS Code based on these tests to ensure that the website displayed correctly across different devices and screen sizes.
 
-During development each page was tested locally in the browser to check layout navigation and responsivness.
+## Version Control Using Git
 
----
+Version control was managed using **Git**. This allowed me to track changes to the project over time, revert to previous versions if needed, and maintain a clear history of development progress. The workflow included:
 
-### Version Control Using Git
+1. **Initialising Git**: The local project folder was initialised as a Git repository using `git init`.  
+2. **Staging Changes**: After making changes to files, I staged them using:
+ *git add .*
+This added all new or modified files to the staging area in preparation for committing.  
+3. **Committing Changes**: Commits were made regularly with descriptive messages summarising the changes:  
+git commit -m "Add homepage layout and carousel functionality"
+4. **Pushing to Remote Repository**: Changes were then pushed to the remote repository on GitHub to keep the online version up-to-date:
+This process was repeated continuously during development to ensure that every key change was backed up and versioned.
+git push
+## Creating the GitHub Repository
 
-Git was used for version control to track progress. Files were staged and committed regularly after key changes were made.
- The  following comands wer used in the treminal of VS Code to send commits to the repositry. 
+A **GitHub account** was created to host the project remotely. The repository was created with the following steps:
 
- git add . 
- git commit -m "comment"
- git push - push to repositry
----
+1. Signed up for a GitHub account at [github.com](https://github.com).  
+2. Created a new repository named `WorldOfHistory`.  
+3. Set the repository to **public** so it could be viewed and accessed online.  
+4. Connected the local project to the repository using the main branch. This included configuring Git with my user details: 
+git config --global user.name "sadek17471748"
+git config --global user.email "sadek17481748@gmail.com"
+5. Linked the local repository to the GitHub repository using the command: 
+git remote add origin https://github.com/sadek17481748/worldofhistory.git
+6. Pushed the local files to the **main branch** of the repository using:
+The repository structure mirrored the local folder, with assets organised in subfolders for images, videos, and CSS.
+git push -u origin main
+## Deployment Using GitHub Pages
 
-### Creating the GitHub Repository
+The website was deployed online using **GitHub Pages**, which allows static websites to be hosted directly from a GitHub repository. The deployment process involved:
 
-A repository named World Of History was created on GitHub and the local project was connected to it. Files were pushed using the main branch. 
+1. Opening the repository settings and navigating to the **Pages** section.  
+2. Selecting the **main branch** as the source branch and the **root folder** as the deployment folder.  
+3. GitHub Pages then generated a live URL for the website: 
+https://sadek17481748.github.io/worldofhistory/
 
-following commands used in terminal to connect to the repositry  
-git config --global user.name "eventiservicesandhelp-ops"
-git config --global user.email "eventiservicesandhelp-ops@users.noreply.github.com"
+During this process, I encountered some deployment issues. Initially, some pages returned **404 errors**. This was caused by incorrect file paths to assets such as images, CSS, and videos, as well as naming inconsistencies between local files and their references in the HTML. These issues were resolved by carefully checking the file paths, ensuring consistent naming conventions, and confirming that all assets were correctly referenced in the HTML files.
 
+## Updating the Live Website
 
----
+Once deployed, any updates to the website are automatically reflected on the live site whenever new commits are pushed to the **main branch** of the GitHub repository. This allows the live website to stay up-to-date with the latest development changes without manual redeployment.
 
-### Deployment Using GitHub Pages
+## Live Website
 
-GitHub Pages was enabled through repository settings. The main branch and root folder were selected. GitHub then generated a live link.
+The website is live and accessible via GitHub Pages at:  
+[https://sadek17481748.github.io/worldofhistory/](https://sadek17481748.github.io/worldofhistory/)
 
----
-
-### Updating the Live Site
-
-Any new commits pushed to the main branch automatically update the live website.
-
----
-
-### Live Website
-
-https://eventiservicesandhelp-ops.github.io/worldofhistory-new/
----
 
 # Testing and Bugs
 
@@ -404,7 +411,7 @@ This document lists all image, article, video, and design references used for re
 - **Museum Sleepovers** — Travel article
 
 - **Garden Museum Orangery** — Dan Pearson Garden  
-  https://flavoursearch.com/listings/3395/garden-museum/the-orangery-dan-pearson-garden
+ https://flavoursearch.com/listings/3395/garden-museum/the-orangery-dan-pearson-garden
 
 ---
 
@@ -513,7 +520,7 @@ NCC
 Level 5 Web Development  
 Milestone 1
  
- commit test 2
+
 
 
 

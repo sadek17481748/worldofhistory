@@ -1,90 +1,55 @@
-body {
-  background-color: white;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
 
-.original-header {
-  background-color: black;
-  color: white;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 10;
-  padding: 15px 0;
-  box-shadow: 0 2px 5px black;
-}
+    /* Base page styling */
+    body {
+      font-family: 'Open Sans', sans-serif; 
+      background-color: #f5f1e6;
+    }
 
-.world-title {
-  color: white;
-  text-align: center;
-}
+    /* Serif font applied to headings and card titles */
+    h1, h2, h3, h4, h5, h6, .card-title {
+      font-family: 'Playfair Display', serif;
+    } 
 
-.tabs-home {
-  text-align: center;
-  font-size: 30px;
-}
+    /* Navigation link transition effects */
+    .nav-link {
+      transition: color 0.3s ease, border-bottom 0.3s ease;
+    }
 
-.tabs-home a {
-  text-decoration: none;
-  padding: 10px 20px;
-  margin: 0 10px;
-  border-radius: 5px;
-  font-weight: bold;
-  color: white;
-}
+    /* Navigation hover styling */
+    .nav-link:hover {
+      color: #ffc107;
+      border-bottom: 2px solid #ffc107;
+    }
 
-main {
-  padding-top: 180px; /* clears fixed header */
-}
+    /* Active navigation link styling */
+    .nav-link.active {
+      color: #ffc107 !important;
+      border-bottom: 2px solid #ffc107;
+    }
 
-section {
-  margin-bottom: 60px;
-  text-align: center;
-}
+    /* Footer base styling */
+    footer {
+      background-color: black !important;
+      color: white !important;
+      padding: 20px 0 !important; 
+      text-align: center;
+    }
 
-section h2 {
-  font-size: 1.8rem;
-  margin-bottom: 20px;
-}
+    /* Ensure all footer text inherits white colour */
+    footer * {
+      color: white !important;
+    }
 
-section p {
-  font-size: 1.1rem;
-  max-width: 900px;
-  margin: 0 auto 20px auto;
-}
+    /* Footer link styling */
+    footer a {
+      color: beige !important;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
 
-fieldset {
-  background: #f9f9f9;
-}
-
-input, select {
-  width: 100%;
-  padding: 8px 10px;
-  margin-bottom: 15px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-button {
-  padding: 10px 25px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-footer {
-  background-color: black;
-  color: white;
-  padding: 40px 20px;
-  text-align: center;
-}
-
-footer a {
-  color: beige;
-  margin: 0 10px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
+    /* Footer link hover effect */
+    footer a:hover {
+      color: #ffcc00 !important;
+    }
